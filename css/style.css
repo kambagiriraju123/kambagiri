@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif:ital@1&family=Poppins:wght@100&family=Roboto:wght@700&display=swap');
+
+*{
+    text-align: justify;
+    font-family: 'Noto Sans', sans-serif;
+}
+.bannerBgImage{
+    font-style: italic;
+    background-image: url("../images/profile.jpg");
+    height:120vh;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.banner{
+    height: 120vh;
+    background-image: url("../images/webpic.jpg");
+    background-size: cover;
+}
+
+.bannerText {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.bannerTitle {
+    font-size: 4rem;
+}
+
+.bannerDesc {
+    font-size: 2rem;
+}
+
+.card {
+    cursor: pointer;
+
+}
+
+.card:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(193, 150, 215);
+}
+
+.bIcon {
+    width: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.img-fluid:hover {
+    border: 2px solid rgb(202, 153, 232);
+}
+
+.card-img-top {
+    height: 50vh;
+}
+
